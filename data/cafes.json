@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Blue Bottle Coffee",
+    "address": "66 Mint St, San Francisco, CA 94103",
+    "latitude": 37.782449,
+    "longitude": -122.407982,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+    "description": "Industrial-chic cafe known for its signature single-origin drip coffees, espresso, and fresh pastries."
+  },
+  {
+    "id": "2",
+    "name": "Sightglass Coffee",
+    "address": "270 7th St, San Francisco, CA 94103",
+    "latitude": 37.777014,
+    "longitude": -122.408475,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+    "description": "Spacious, multi-level roastery and bar featuring handcrafted espresso drinks, pour-overs, and an open layout."
+  },
+  {
+    "id": "3",
+    "name": "Four Barrel Coffee",
+    "address": "375 Valencia St, San Francisco, CA 94103",
+    "latitude": 37.767054,
+    "longitude": -122.421884,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=800&q=80",
+    "description": "Hip, high-ceilinged cafe offering house-roasted beans, art on the walls, and a zero-wifi, social-focused environment."
+  },
+  {
+    "id": "4",
+    "name": "Ritual Coffee Roasters",
+    "address": "1026 Valencia St, San Francisco, CA 94110",
+    "latitude": 37.756381,
+    "longitude": -122.421105,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80",
+    "description": "Pioneering specialty coffee bar with a bright red theme, serving expertly sourced and roasted seasonal coffees."
+  },
+  {
+    "id": "5",
+    "name": "The Mill",
+    "address": "736 Divisadero St, San Francisco, CA 94117",
+    "latitude": 37.776412,
+    "longitude": -122.437774,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80",
+    "description": "A collaborative space by Four Barrel Coffee and Josey Baker Bread, famous for its premium artisanal toast and rustic vibes."
+  },
+  {
+    "id": "6",
+    "name": "Jane on Fillmore",
+    "address": "2123 Fillmore St, San Francisco, CA 94115",
+    "latitude": 37.789311,
+    "longitude": -122.434311,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80",
+    "description": "Charming neighborhood bakery and cafe serving delicious healthy breakfast options, specialty coffees, and fresh-baked goods."
+  },
+  {
+    "id": "7",
+    "name": "Sextant Coffee Roasters",
+    "address": "1415 Folsom St, San Francisco, CA 94103",
+    "latitude": 37.772590,
+    "longitude": -122.413813,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "description": "Specializing in Ethiopian single-origin coffees, this rustic-industrial roastery features an outdoor patio and rich, flavorful brews."
+  },
+  {
+    "id": "8",
+    "name": "Saint Frank Coffee",
+    "address": "2340 Polk St, San Francisco, CA 94109",
+    "latitude": 37.798444,
+    "longitude": -122.422111,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80",
+    "description": "Minimalist, light-filled coffee bar offering artisan beans, custom espresso machines, and a focus on transparency and relationships."
+  }
+]

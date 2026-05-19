@@ -1,0 +1,31 @@
+{
+  "name": "cafetestapi",
+  "version": "1.0.0",
+  "description": "Cafe Finder Backend API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashtajdar/cafeTestApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arashtajdar/cafeTestApi/issues"
+  },
+  "homepage": "https://github.com/arashtajdar/cafeTestApi#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
