@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Blue Bottle Coffee",
     "address": "66 Mint St, San Francisco, CA 94103",
     "latitude": 37.782449,
@@ -10,7 +10,7 @@
     "description": "Industrial-chic cafe known for its signature single-origin drip coffees, espresso, and fresh pastries."
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Sightglass Coffee",
     "address": "270 7th St, San Francisco, CA 94103",
     "latitude": 37.777014,
@@ -20,7 +20,7 @@
     "description": "Spacious, multi-level roastery and bar featuring handcrafted espresso drinks, pour-overs, and an open layout."
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Four Barrel Coffee",
     "address": "375 Valencia St, San Francisco, CA 94103",
     "latitude": 37.767054,
@@ -30,7 +30,7 @@
     "description": "Hip, high-ceilinged cafe offering house-roasted beans, art on the walls, and a zero-wifi, social-focused environment."
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Ritual Coffee Roasters",
     "address": "1026 Valencia St, San Francisco, CA 94110",
     "latitude": 37.756381,
@@ -40,7 +40,7 @@
     "description": "Pioneering specialty coffee bar with a bright red theme, serving expertly sourced and roasted seasonal coffees."
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "The Mill",
     "address": "736 Divisadero St, San Francisco, CA 94117",
     "latitude": 37.776412,
@@ -50,7 +50,7 @@
     "description": "A collaborative space by Four Barrel Coffee and Josey Baker Bread, famous for its premium artisanal toast and rustic vibes."
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Jane on Fillmore",
     "address": "2123 Fillmore St, San Francisco, CA 94115",
     "latitude": 37.789311,
@@ -60,7 +60,7 @@
     "description": "Charming neighborhood bakery and cafe serving delicious healthy breakfast options, specialty coffees, and fresh-baked goods."
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Sextant Coffee Roasters",
     "address": "1415 Folsom St, San Francisco, CA 94103",
     "latitude": 37.772590,
@@ -70,7 +70,7 @@
     "description": "Specializing in Ethiopian single-origin coffees, this rustic-industrial roastery features an outdoor patio and rich, flavorful brews."
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Saint Frank Coffee",
     "address": "2340 Polk St, San Francisco, CA 94109",
     "latitude": 37.798444,

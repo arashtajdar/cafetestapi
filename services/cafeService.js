@@ -34,11 +34,12 @@ class CafeService {
 
   /**
    * Get a single cafe by ID
-   * @param {string} id Cafe ID
+   * @param {string|number} id Cafe ID
    * @returns {Object|null} Cafe object or null if not found
    */
   getCafeById(id) {
-    const cafe = cafes.find(c => c.id === id);
+    const numericId = Number(id);
+    const cafe = cafes.find(c => c.id === numericId);
     return cafe || null;
   }
 
@@ -65,32 +66,34 @@ class CafeService {
 
   /**
    * Add a cafe to favorites
-   * @param {string} id Cafe ID
+   * @param {string|number} id Cafe ID
    * @returns {Object} Added cafe object
    * @throws {Error} If cafe not found or already in favorites
    */
   addFavorite(id) {
-    const cafe = this.getCafeById(id);
+    const numericId = Number(id);
+    const cafe = this.getCafeById(numericId);
     if (!cafe) {
       throw new Error(`Cafe with ID ${id} not found`);
     }
-    if (favoriteIds.has(id)) {
+    if (favoriteIds.has(numericId)) {
       return cafe; // Already a favorite, return idempotently
     }
-    favoriteIds.add(id);
+    favoriteIds.add(numericId);
     return cafe;
   }
 
   /**
    * Remove a cafe from favorites
-   * @param {string} id Cafe ID
+   * @param {string|number} id Cafe ID
    * @returns {boolean} True if removed, false if not in favorites
    */
   removeFavorite(id) {
-    if (!favoriteIds.has(id)) {
+    const numericId = Number(id);
+    if (!favoriteIds.has(numericId)) {
       return false;
     }
-    return favoriteIds.delete(id);
+    return favoriteIds.delete(numericId);
   }
 }
 
