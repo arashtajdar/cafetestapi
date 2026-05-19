@@ -126,3 +126,23 @@ docker build -t cafe-finder-api .
 docker run -p 5000:3000 --env-file .env cafe-finder-api
 ```
 *(Maps the internal container port 3000 to local host port 5000)*
+
+---
+
+## Railway Deployment
+
+This project is pre-configured for seamless deployment to [Railway](https://railway.app/).
+
+### Configuration Highlights
+- **Build Provider**: Railway will detect the `Dockerfile` and build the application container automatically.
+- **Port Binding**: Railway automatically injects the `PORT` environment variable, which Express listens on.
+- **Health Check**: Configured in `railway.json` to monitor the root path `/` for high availability.
+
+### Steps to Deploy
+1. Push your repository to GitHub.
+2. Link the repository in your Railway dashboard.
+3. Configure the following **Environment Variables** in the Railway service settings:
+   - `BASIC_AUTH_USER` (e.g., `admin`)
+   - `BASIC_AUTH_PASSWORD` (e.g., `your-strong-password`)
+4. Railway will build, deploy, and expose a public URL automatically.
+
